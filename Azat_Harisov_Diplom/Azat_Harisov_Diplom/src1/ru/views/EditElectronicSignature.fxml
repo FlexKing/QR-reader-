@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="861.0" prefWidth="1165.0" styleClass="sub-panels" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="254.0" layoutY="31.0" prefHeight="89.0" prefWidth="547.0" text="Создание электронной подписи" textAlignment="CENTER">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="createButton" layoutX="918.0" layoutY="452.0" mnemonicParsing="false" text="Создать" />
+        <TextField fx:id="textField" layoutX="387.0" layoutY="452.0" prefHeight="25.0" prefWidth="253.0" />
+    </children>
+</fx:root>

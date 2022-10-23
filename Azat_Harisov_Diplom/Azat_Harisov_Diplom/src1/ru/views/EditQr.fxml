@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="861.0" prefWidth="1165.0" styleClass="sub-panels" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="337.0" layoutY="45.0" prefHeight="65.0" prefWidth="339.0" text="Создание QR кода" textAlignment="CENTER">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="createButton" layoutX="819.0" layoutY="457.0" mnemonicParsing="false" text="Создать" />
+        <TextField fx:id="textField" layoutX="396.0" layoutY="457.0" prefHeight="25.0" prefWidth="253.0" />
+        <ImageView fitHeight="291.0" fitWidth="385.0" layoutX="330.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</fx:root>
